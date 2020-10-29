@@ -1,0 +1,19 @@
+displayWeather(){
+
+    iconElement.innerHTML = 
+
+    <img src="icons/${weather.icomID}.png"/>
+
+tempElement.innerHTML =  
+
+    $(weather.temperature.value) ° <span>c</span>; 
+
+descElement.innerHTML = Clear Sky 
+
+    weather.description; 
+
+locationElement.innerHTML =
+
+${weather.city}, ${weather.country}; 
+}
+
